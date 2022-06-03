@@ -1,0 +1,5 @@
+package com.example.practice.repo;
+
+public interface EmployeeRepo extends MongoRepository<EmployeeEntity, Integer> {
+
+}
